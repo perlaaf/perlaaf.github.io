@@ -1,0 +1,366 @@
+@media (max-width: 376px) {
+.wrapper {
+    width: 80%;
+    background-color: #caf0f8;
+    }
+}
+
+@media (min-width: 377px) {
+.wrapper {
+    width: 100%;
+    background-color: #90e0ef;
+    }
+}
+
+.CGN_Description {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+img.InfoPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+    max-width: auto;
+    height: auto;
+    }
+
+.ReadingLinks {
+    background-color: #00b4d8;
+    border-style: dotted;
+    grid-row: 1/span 2;
+    grid-column: 1;
+    margin-right: 20px;
+    width: 250px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.ArticleList {
+    padding-top: 80px;
+        align-items: center;
+        justify-content: center;
+}
+
+img.right {
+    float: left;
+    margin-left: 30px;
+}
+
+img.left {
+    float: left;
+    margin-left: 30px;
+    }
+
+body {
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+img.GameBoyleft {
+    float: left;
+    margin-right: 60px;
+    width: 60px;
+    padding-right: 95px;
+    padding-left: 95px;
+    background-color: #90e0ef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: dotted;
+}
+
+img.DailyNews {
+    float: left;
+    margin-right: 50px;
+    height: 75px;
+    width: 90px;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    background-color: #90e0ef;
+}
+
+.CGN_Info {
+    border-style: dotted;
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #90e0ef;
+    font-size: 100%;
+    font-weight:500;
+    color: #000000;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.SocialMedia {
+    border-style: dotted;
+    grid-row: 2;
+    grid-column: 2;
+    background-color: #caf0f8;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: auto;
+    float: left;
+    grid-template-columns: 1fr;
+    }
+
+.SocialMediaLink1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.SocialMediaLink2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+.SocialMediaPic {
+        display: grid;
+        padding-left: 400px;
+        background-color: #90e0ef;
+        border-bottom: dotted;
+        border-top: dotted;
+}
+
+table, th, td {
+    padding-right: 1px;
+    border-spacing: 1px;
+    border: .5px solid;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.TopBloggers {
+    padding-left: 75px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 1000;
+    font-size: 50px;
+    font-style: italic;
+    text-align:center;
+    color: #000000;
+    }
+
+header {background-color: ffff99;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        border: 4px dotted #000000;
+        padding: 25px 50px 25px 25px; 
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: auto;
+}
+
+.indexnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Comic Sans MS, Comic Sans, cursive;    
+}
+
+.left-column {
+    background-color: #caf0f8;
+    border: 3px dotted #4169e1;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.middle-column {
+    background-color: #caf0f8;
+    border: 3px dotted #4169e1;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.right-column {
+    background-color: #caf0f8;
+    border: 3px dotted #4169e1;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blue-text {
+    color: mediumblue;
+    font-weight: 700;
+    font-size: 125%;
+
+}
+
+a: visited {
+    color: purple;
+}
+
+nav li{
+    display: inline;
+}
+
+article {
+    background-color: lightskyblue;
+}
+
+body {margin-left: 20px;
+margin-right: 20px
+}
+
+.AboutUs {
+    border-style: dotted;
+    margin-right: auto;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.Recommendations {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: helvetica, sans-serif, cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    border-style: dotted;
+    background-color: #90e0ef;
+    font-size: 12px;
+    text-align: center;
+}
+
+.SNESPic {
+    display: flex;
+    height: 60px; 
+    width: 50px;  
+    max-height: 300px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: auto; 
+    padding: auto;
+    border: 3px dotted #000000;
+    background-color: #caf0f8;
+    }
+
+.ContactEmails {font-family: calibri, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    border-style: dotted;
+    background-color: #90e0ef;
+        
+}
+
+.EmailPic {
+    display: flex;
+    height: 60px; 
+    width: 60px;  
+    max-height: 300px;
+    margin-top: 10px;
+    margin-right: auto; 
+    width: auto;
+    padding-left: 870px;
+    border: 3px dotted #000000;
+    background-color: #caf0f8;
+  
+}
+
+.TheGamer {
+    padding-bottom: 10px;
+}
+
+.ThatVideoGameBlog {
+    padding-bottom: 10px;
+}
+
+.BloggingGuide {
+    padding-bottom: 10px;
+}
+
+.Lofi {
+    display: flex;
+    height: 60px; 
+    width: 50px;  
+    max-height: 300px;
+    margin-top: 10px;
+    margin-right: 5px;
+    width: auto; 
+    padding-bottom: 270px;
+    padding-top: 15px;
+    padding-left: 160px;
+    border: 3px dotted #000000;
+    background-color: #caf0f8;    
+}
+
+form {
+            width: 300px;
+            font-family: cursive;
+            padding-left: 1px;
+            padding-right: 1px;
+            align-content: center;
+            margin: auto;
+            }
+        label {
+            display: block;
+            margin-bottom: auto;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 80%;
+            padding: 20px;
+            border: 5px dotted #000000;
+            font-size: 12px;
+            color: #caf0f8;
+        }
+        
+        input[type="submit"]{
+            display: block;
+            margin: 20px 20px 20px 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: blue;
+            color: #caf0f8;
+            border: dotted;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+.FormA {
+    margin: 0 auto;
+    width: 400px;
+}
