@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+    @media (max-width: 376px) {
 .wrapper {
     width: 80%;
     background-color: #caf0f8;
@@ -322,15 +322,33 @@ margin-right: 20px
     background-color: #caf0f8;    
 }
 
+
 form {
-            width: 300px;
-            font-family: cursive;
-            padding-left: 1px;
-            padding-right: 1px;
-            align-content: center;
-            margin: auto;
-            }
-        label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; 
+background-color: lightskyblue;
+}
+
+button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px dotted #000000;
+    
+}
+    
+label {
             display: block;
             margin-bottom: auto;
         }
@@ -359,8 +377,4 @@ form {
             font-weight: bolder;
             cursor: pointer;
         }
-
-.FormA {
-    margin: 0 auto;
-    width: 400px;
-}
+    
